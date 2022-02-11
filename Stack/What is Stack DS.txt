@@ -1,7 +1,8 @@
 # Stack 
 
 Stack is a linear Data Structure which operates on LIFO (Last in First Out) or FILO (First in Last Out) pattern.
-It is an ADT (Abstact Data Type) with bounded capacity (predefined)
+It is an ADT (Abstact Data Type) with bounded capacity (predefined).
+Real life example of stack is books kept on one another.
 
 Applications of Stack :
 -> Stacks can be used for expression evaluation.
@@ -22,4 +23,7 @@ peek() - access the element at i th position.
 count() - gets the number of items in the stack.
 change() - updates an element at the i th position.
 display() - displays all elements in the stack.
+
+
+
 
