@@ -1,10 +1,10 @@
-# Stack 
+### Stack 
 
 Stack is a linear Data Structure which operates on LIFO (Last in First Out) or FILO (First in Last Out) pattern.
 It is an ADT (Abstact Data Type) with bounded capacity (predefined).
 Real life example of stack is books kept on one another.
 
-Applications of Stack :
+**Applications of Stack :**
 -> Stacks can be used for expression evaluation.
 -> Stacks can be used to check parenthesis matching in an expression.
 -> Stacks can be used for Memory Management.
@@ -13,7 +13,7 @@ Applications of Stack :
 -> Stacks are used in cache memory.
 
 
-** Standard Stack Functions **
+**Standard Stack Functions**
 
 push() - takes an element and pushes it on top of the stack. (If stack is full and push is called, it is known as Overflow state)
 pop() - removes an element from the top and returns it. (If the stack is empty and pop is called it is known as Underflow state)
