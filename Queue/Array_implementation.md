@@ -1,4 +1,4 @@
-### Queue Implementation using Stack
+### Queue Implementation using Arrray
 
 
 ```C++ 
