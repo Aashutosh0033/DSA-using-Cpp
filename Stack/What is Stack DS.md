@@ -1,7 +1,7 @@
 ### Stack 
 
 Stack is a linear Data Structure which operates on LIFO (Last in First Out) or FILO (First in Last Out) pattern.
-It is an ADT (Abstact Data Type) with bounded capacity (predefined).
+It is an ADT (Abstact Data Type).
 Real life example of stack is books kept on one another.<br/><br/>
 
 **Applications of Stack :**<br/>
