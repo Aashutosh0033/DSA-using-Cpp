@@ -1,7 +1,7 @@
 ### Queue
 
 Queue is a linear data structure which operates on FIFO (First in Fist Out) or LILO (Last in Last Out) pattern
-It is an ADT (Abstract Data type) with bounded capacity (predefined).
+It is an ADT (Abstract Data type).
 Some real life example of queue is people on an escalator.<br/><br/>
 
 
