@@ -1,9 +1,6 @@
 ### Implementing Stack using Arrays
 
 ```C++
-
- 
-
 #include<iostream>
 using namespace std;
 
@@ -221,16 +218,5 @@ int main(){
 
 return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 ```
