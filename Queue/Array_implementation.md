@@ -149,7 +149,7 @@ int main(){
 
             case 0: break;
             
-            case 1: cout<<"Enter the value to be pushed"<<endl;
+            case 1: cout<<"Enter the value to be enqueued"<<endl;
                     cin>>value;
                     q.enqueue(value);
                     break;
@@ -158,19 +158,19 @@ int main(){
                     break;
 
             case 3: if(q.isEmpty()){
-                    cout<<"Stack is Empty"<<endl;
+                    cout<<"Queue is Empty"<<endl;
                     }
 
                     else{
-                        cout<<"Stack is not empty"<<endl;
+                        cout<<"Queue is not empty"<<endl;
                     }
                     break;
 
             case 4: if(q.isFull()){
-                    cout<<"Stack is Full"<<endl;
+                    cout<<"Queue is Full"<<endl;
                     }
                     else{
-                        cout<<"Stack is not Full"<<endl;
+                        cout<<"Queue is not Full"<<endl;
                     }
                     break;
 
