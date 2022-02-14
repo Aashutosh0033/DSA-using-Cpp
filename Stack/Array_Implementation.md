@@ -4,15 +4,20 @@
 #include<iostream>
 using namespace std;
 
+int arr[5];
+
 class Stack{
     private:
         int top, n;
-        int arr[5];
+        
+        
     
     public:
         Stack(int size){
             n = size;
             top = -1;
+            arr[n];
+            
             for(int i=0;i<n;i++){
                 arr[i] = 0;
             }
@@ -52,17 +57,17 @@ class Stack{
 
     }
 
-    int pop(){
+    void pop(){
         if(isEmpty()){
             cout<<"Stack Underflow!"<<endl;
-            return 0;
+            
 
         }
         else{
             int popvalue = arr[top];
             arr[top] = 0;
             top--;
-            return popvalue;
+            cout<<"The popped value is "<<popvalue;
         }
     }
 
@@ -118,16 +123,14 @@ class Stack{
 };
 
 
+//***Menu Driven Program***
+
 
 int main(){
-
  
  int option1,option2,position,value, size;
 
 
-//***Menu Driven Program***
-
- 
      cout<<"\n\n***Welcome to the implementation of Stack***"<<endl<<endl;
 
      cout<<"1. Enter the size of Stack\n2. Exit"<<endl;
@@ -151,8 +154,6 @@ int main(){
     Stack s(size);
 
     do{
-
-        
         
         cout<<"\n\nWhich operation do you want to perform? Select the correct option. Press 0 to Exit"<<endl;
         cout<<"1. push()\n2. pop()\n3. isEmpty()\n4. isFull()\n5. peek()\n6. count()\n7. change()\n8. display()\n9.Clear Screen\n"<<endl;
@@ -167,7 +168,7 @@ int main(){
                     s.push(value);
                     break;
             
-            case 2: cout<<"The popped value is "<<s.pop()<<endl;
+            case 2: s.pop();
                     break;
 
             case 3: if(s.isEmpty()){
@@ -220,3 +221,7 @@ return 0;
 }
 
 ```
+
+ 
+
+        
