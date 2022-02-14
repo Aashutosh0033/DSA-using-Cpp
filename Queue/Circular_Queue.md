@@ -1,8 +1,7 @@
-### Queue Implementation using Arrray
+### Circular Queue Implementation using Arrays
 
-
-```C++ 
-//Implementing Queue using Array
+```C++
+//Implementing Circular Queue using Array
 
 #include<iostream>
 using namespace std;
@@ -24,7 +23,7 @@ class Queue{
 
         }
 
-        //Standard Queue operations
+        //Standard Circular Queue operations
         bool isEmpty(){
             if(rear == -1 && front == -1){
                 return true;
@@ -37,7 +36,7 @@ class Queue{
 
        
         bool isFull(){
-            if(rear == (n-1) && front == 0){
+            if((rear+1)%n == front){
                 return true;
             }
             else{
@@ -59,7 +58,7 @@ class Queue{
             }
 
             else{
-                rear ++;
+                rear = (rear+1)%n;
             }
 
             arr[rear] = val;
@@ -83,30 +82,38 @@ class Queue{
             else{
                 cout<<"The dequeued value is "<<arr[front]<<endl;
                 arr[front] = 0;
-                front++;
+                front = (front+1)%n;
             }
         }
 
 
         void count(){
-            cout<<"There are "<<(rear-front)+1<<" elements in the queue."<<endl;
-        }
 
-
-        void display(){
-
-            if(isEmpty()){
+            if(rear>front){
+                cout<<"There are "<<(rear-front)+1<<" elements in the queue."<<endl;
+            }
+            else if(isEmpty()){
                 cout<<"The Queue is Empty"<<endl;
             }
 
             else{
-                cout<<"The elements in the Queue are: "<<endl;
-                for(int i = 0;i<n;i++){
-                cout<<arr[i]<<" ";
+                cout<<"There are "<<(rear+front)<<" elements in the queue."<<endl;
             }
-            }
-           
+
         }
+
+
+        void display(){
+            cout<<"The elements in the Queue are: "<<endl;
+            for(int i = 0;i<n;i++){
+            cout<<arr[i]<<" ";
+            }
+            
+        }
+
+            
+           
+        
 };
 
 
@@ -115,7 +122,7 @@ class Queue{
 int main(){
     int option1,option2,position,value,size;
 
-    cout<<"\n\n***Welcome to the implementation of Queue***"<<endl<<endl;
+    cout<<"\n\n***Welcome to the implementation of Circular Queue***"<<endl<<endl;
 
      cout<<"1. Enter the size of Queue\n2. Exit"<<endl;
      cout<<"Option: ";
@@ -149,7 +156,7 @@ int main(){
 
             case 0: break;
             
-            case 1: cout<<"Enter the value to be pushed"<<endl;
+            case 1: cout<<"Enter the value to be enqueued"<<endl;
                     cin>>value;
                     q.enqueue(value);
                     break;
@@ -158,19 +165,19 @@ int main(){
                     break;
 
             case 3: if(q.isEmpty()){
-                    cout<<"Stack is Empty"<<endl;
+                    cout<<"Queue is Empty"<<endl;
                     }
 
                     else{
-                        cout<<"Stack is not empty"<<endl;
+                        cout<<"Queue is not empty"<<endl;
                     }
                     break;
 
             case 4: if(q.isFull()){
-                    cout<<"Stack is Full"<<endl;
+                    cout<<"Queue is Full"<<endl;
                     }
                     else{
-                        cout<<"Stack is not Full"<<endl;
+                        cout<<"Queue is not Full"<<endl;
                     }
                     break;
 
