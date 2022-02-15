@@ -1,6 +1,5 @@
-### Singly Linked List Implementation
+// Singly Implementong Linked List
 
-```C++
 #include<iostream>
 using namespace std;
 
@@ -213,7 +212,7 @@ class singlyLinkedList{
 
 
 
-
+//Menu Driven Program
 
 int main(){
 
@@ -299,5 +298,3 @@ int main(){
 
 return 0;
 }
-
-```
