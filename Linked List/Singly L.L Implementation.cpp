@@ -1,4 +1,4 @@
-// Singly Implementong Linked List
+// Implementing Singly Linked List
 
 #include<iostream>
 using namespace std;
@@ -252,7 +252,7 @@ int main(){
       n1 -> key = key1;
       n1 -> val = val1;
       s.appendNode(n1);
-      //cout<<n1.key<<" = "<<n1.data<<endl;
+      
       break;
 
     case 2:
