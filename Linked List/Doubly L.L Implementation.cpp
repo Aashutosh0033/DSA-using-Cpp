@@ -1,5 +1,4 @@
-// Singly Implementong Linked List
-
+//Implementing Doubly Linked List
 #include<iostream>
 using namespace std;
 
@@ -8,11 +7,14 @@ class Node{
     public:
         int key, val;
         Node *next;
+        Node* prev;
 
         Node(){
             key = 0;
             val = 0;
             next  = NULL;
+            prev = NULL;
+            
         }
 
         Node(int k, int v){
@@ -23,15 +25,17 @@ class Node{
 };
     
 
-class singlyLinkedList{
+class doublyLinkedList{
     public:
         Node *head;
-        singlyLinkedList(){
+
+        doublyLinkedList(){
             head = NULL;
         }
 
-        singlyLinkedList(Node *n){
+        doublyLinkedList(Node *n){
             head = n;
+            
         }
 
 
@@ -76,6 +80,7 @@ class singlyLinkedList{
                     }
 
                     ptr->next = n;
+                    n->prev = ptr;
                     cout<<"Node appended"<<endl;
                 }
             }
@@ -95,15 +100,15 @@ class singlyLinkedList{
                     cout<<"Node Prepended"<<endl;
                 }
                 else{
+                    head->prev = n;
                     n->next = head;
                     head = n;
                     cout<<"Node Prepended"<<endl;
-
                 }
-                
 
             }
         }
+                
 
 //4. Insert a node after a particular node in the list
         void insertNodeAfter(int k, Node* n){
@@ -120,20 +125,38 @@ class singlyLinkedList{
                 }
 
                 else{
-                    n->next = ptr->next;
-                    ptr->next = n;
-                    cout<<"Node inserted"<<endl;
+                    Node* nextNode = ptr->next;
+                    //Inserting at the end
+                    if(nextNode = NULL){
+                        ptr->next = n;
+                        n->prev = ptr;
+                        cout<<"Node inserted"<<endl;
+                    }
+                    //Inserting in between 
+                    else{
+                        
+                        n->next = nextNode;
+                        n->prev = ptr;
+                        nextNode->prev = n;
+                        ptr->next = n;
+                        cout<<"Node inserted"<<endl;
+                    }
+                    
                 }
 
             }
         }
+                        
+                    
+
 
 
 //5. Delete Node by key 
 
         void deleteNodeByKey(int k){
+            Node* ptr = nodeExists(k);
             if(head == NULL){
-                cout<<"Singly Linked List already Empty. Can't delete"<<endl;
+                cout<<"doubly Linked List already Empty. Can't delete"<<endl;
             }
             else if(head!=NULL){
                 if(head->key==k){
@@ -141,30 +164,19 @@ class singlyLinkedList{
                 cout<<"Node UNLINKED with key value :"<<k<<endl;
                 }
                 else{
-                    Node* temp = NULL;
-                    Node* prevptr = head;
-                    Node* currentptr = head->next;
-                    while(currentptr!=NULL){
-                        if(currentptr->key==k){
-                            temp = currentptr;
-                            currentptr = NULL;
-                        }
-
-                        else{
-                            prevptr = prevptr->next;
-                            currentptr = currentptr->next;
-
-                        }
+                    Node* nextNode = ptr->next;
+                    Node* prevNode =ptr->prev;
+                    //Deleting at the end
+                    if(nextNode == NULL){
+                        prevNode->next = NULL;
+                        cout<<"Node UNLINKED"<<endl;
                     }
 
-                    if(temp != NULL){
-                        prevptr->next = temp->next;
-                        temp->next= NULL;
-                        cout<<"Node UNLINKED with key value :"<<k<<endl;
-                    }
-
+                    //Delelting Node in between 
                     else{
-                        cout<<"Node doesn't exist with key value :"<<k<<endl;
+                        prevNode->next = nextNode;
+                        nextNode->prev = prevNode;
+                        cout<<"Node UNLINKED"<<endl;
                     }
 
 
@@ -175,6 +187,10 @@ class singlyLinkedList{
 
 
         }
+                    
+                    
+
+                    
 
 
 //6. Update a node
@@ -197,12 +213,12 @@ class singlyLinkedList{
 
         void printList(){
             if(head == NULL){
-                cout<<"No Nodes in the singly linked list"<<endl;
+                cout<<"No Nodes in the doubly linked list"<<endl;
 
             }
 
             else{
-                cout<<"Singly linked list values :"<<endl;
+                cout<<"doubly linked list values :"<<endl;
                 cout<<"(key, value)-->"<<endl;
                 Node* temp  = head;
                 while(temp!=NULL){
@@ -221,11 +237,11 @@ class singlyLinkedList{
 
 
 
-//Menu Driven Program
+
 
 int main(){
 
-    singlyLinkedList s;
+    doublyLinkedList s;
     int option;
     int key1,k1,val1;
 
