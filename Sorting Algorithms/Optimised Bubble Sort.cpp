@@ -1,4 +1,4 @@
-//Implementing Bubble Sort
+//Implementing Optimised Bubble Sort
 //Time Complexity -> O(n^2)
 
 
@@ -9,14 +9,21 @@ using namespace std;
 void bubbleSort(int arr[], int n){
     int counter = 1;
     int swap;
+    bool flag;
 
     while(counter<n){
+        flag = false;   
         for(int i=0;i<n-counter;i++){
             if(arr[i+1]<arr[i]){
+                flag = true;
                 swap = arr[i];
                 arr[i] = arr[i+1];
                 arr[i+1] = swap;
             }
+        }
+
+        if(flag == false){
+            break;
         }
         counter++;
     }
