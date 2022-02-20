@@ -1,5 +1,5 @@
 //Implementing Insertion Sort
-//Time Complexity ->)O(n^2)
+//Time Complexity -> O(n^2)
 
 
 #include<iostream>
