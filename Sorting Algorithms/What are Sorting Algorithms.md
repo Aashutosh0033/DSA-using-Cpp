@@ -33,5 +33,16 @@ Insertion sort is a simple sorting algorithm that works similar to the way you s
 
 *Bubble Sort* : <br>
 Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
+<br><br>
+
+*Merge Sort* : <br>
+ Merge Sort Algorithm is a Divide & Conquer algorithm. It divides input array in two halves, calls itself for the two halves(recursively) and then merges the two sorted halves. A separate merge() function is used for merging two halves. Merge sort is one of the most efficient sorting algorithms.
+ <br><br>
+
+ *Quick Sort* : <br>
+ Quick Sort Algorithm is a Divide & Conquer algorithm. It divides input array in two partitions, calls itself for the two partitions(recursively) and performs in-place sorting while doing so. A separate partition() function is used for performing this in-place sorting at every iteration. Quick sort is one of the most efficient sorting algorithms.
+ <br><br>
+
+ 
 
 
