@@ -3,6 +3,6 @@ This repo contains all the important Data Structures and Algorithms and their im
 
 ## Data Structures
 
-[Stack](https://github.com/Aashutosh0033/Data-Structures-and-Algorithms/tree/main/Stack)
-[Queue](https://github.com/Aashutosh0033/Data-Structures-and-Algorithms/tree/main/Queue)
-[Linked](https://github.com/Aashutosh0033/Data-Structures-and-Algorithms/tree/main/LinkedList)
+[Stack](https://github.com/Aashutosh0033/Data-Structures-and-Algorithms/tree/main/Stack)<br>
+[Queue](https://github.com/Aashutosh0033/Data-Structures-and-Algorithms/tree/main/Queue)<br>
+[Linked](https://github.com/Aashutosh0033/Data-Structures-and-Algorithms/tree/main/Linked%20List)<br>
