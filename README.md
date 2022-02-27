@@ -1,4 +1,8 @@
 #  Data Structures and Algorithms 
+
+
+![Data Structures and Algorithms](https://user-images.githubusercontent.com/83531337/155879473-35f37c9b-7501-4013-b78a-9709244037b3.png)
+
 This repo contains all the important Data Structures and Algorithms and their implementations.
 
 ## Data Structures
