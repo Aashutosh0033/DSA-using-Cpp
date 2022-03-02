@@ -95,26 +95,33 @@ class Queue{
         }
 
         Node *dequeue(){
-            Node *temp = NULL;
+            Node *current = NULL;
+            Node* temp;
 
             if(isEmpty()){
                 cout<<"Queue is Empty!"<<endl;
-                return temp;
+                return current;
             }
 
 
             else if(front == rear){
-                temp = front;
+                current = front;
                 front = NULL;
                 rear = NULL;
-                return temp;
+                return current;
             }
 
             else{
-                temp = rear;
-                rear = rear->next;
-                return temp;
+                current = rear;
+                do{
+                    current = current->next;
+                }while(current->next!=front);
 
+                temp = front;
+                front = current;
+                front->next = NULL;
+
+                return temp;
             }
 
         }
