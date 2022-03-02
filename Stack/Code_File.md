@@ -1,6 +1,9 @@
 ### Implementing Stack using Arrays
 
 ```C++
+
+//Implementing Stack using Arrays
+
 #include<iostream>
 using namespace std;
 
@@ -395,7 +398,7 @@ int main(){
     int option, key, val;
 
     do{
-        cout<<"\n\n***Welcome to Stack Operations***"<<endl<<endl;
+        cout<<"\n\n***Welcome to Stack Operations***\n***Last in First Out***"<<endl<<endl;
         cout<<"1.isEmpty()\n2.Push()\n3.Pop()\n4.Peek()\n5.Count()\n6.Display()\n7.Clear Screen"<<endl;
         cout<<"Choose your option. Press 0 to exit."<<endl;
         cout<<"Option:";
@@ -431,9 +434,15 @@ int main(){
 
             case 3 : 
                 new_node  = s1.pop();
-                cout<<"The Popped Node is : "<<"Key->"<<new_node->key<<" Value->"<<new_node->val<<endl;
-                delete new_node;
-                break;
+                if(new_node == NULL){
+                    break;
+                }
+
+                else{
+                    cout<<"The popped Node is : "<<"Key->"<<new_node->key<<" Value->"<<new_node->val<<endl;
+                    delete new_node;
+                    break;
+                }
 
             case 4 :
                 new_node = s1.peek();
@@ -461,8 +470,6 @@ int main(){
 
         }
     }while(option!=0);
-
-    
 return 0;
 }
 
