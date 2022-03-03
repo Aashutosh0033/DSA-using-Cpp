@@ -144,8 +144,8 @@ int main(){
             system("cls");
             break;
 
-    case 2: system("cls");
-            break;
+    case 2: 
+            exit(0);
      
      default: cout<<"Enter correct option"<<endl;
               break;

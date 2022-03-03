@@ -475,6 +475,14 @@ return 0;
 
 ```
 
+
+### Implementing Stack using Queue
+
+```C++
+
+
+```
+
  
 
         
