@@ -20,7 +20,7 @@ where **m** is the size of the hash table.<br>
 <br><br>
 
 **Collision :**<br>
-When the two different values have the same value, then the problem occurs between the two values, known as a collision. To resolve these collisions, we have some techniques known as collision techniques.<br>
+When the two different values have the same hash key, then the problem occurs between the two values, known as a collision. To resolve these collisions, we have some techniques known as collision techniques.<br>
 <br>
 The following are the collision techniques:<br>
 
