@@ -11,7 +11,7 @@ In Hashing technique, the hash table and hash function are used. Using the hash 
 **There are three ways of implementing Hash Functions :**<br>
 1. Division Method 
 2. Folding Method 
-3. Mid Square Mehthod
+3. Mid Square Method
 <br><br>
 
 In Division Method, the hash function can be defined as : <br>
