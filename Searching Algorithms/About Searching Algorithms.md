@@ -11,6 +11,10 @@ Searching algorithms are designed to check for an element or retrieve an element
 
 *Interval Search* : These algorithms are specificaly designed for searching in the sorted data-structures. These types of searching algorithmns are much more efficient than linear searches, they repeatedly target the center of the search. For example : Binary Search. <br><br>
 
+
+### Linear Search : 
+Linear Search Algorithm basically traverse through the whole data structure linearly to search the key. Due to this the time complexity of this algorithm is directly proportional to the length of the data structure.<br><br>
+
 ### Binary Search :
 Binary Search is a searching algorithm used in a sorted array by repeatedly dividing the search interval in half. The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(Log n). The basic steps to perform Binary Search are:<br>
 
