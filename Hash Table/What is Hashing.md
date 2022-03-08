@@ -7,3 +7,12 @@ Hashing is one of the searching techniques that uses a constant time. The time c
 In Hashing technique, the hash table and hash function are used. Using the hash function, we can calculate the address at which the value can be stored.
 
 ![hash-table](https://user-images.githubusercontent.com/83531337/157171845-bd8e9231-1b3c-45ea-9ffc-c43f466f21a1.png)
+
+**There are three ways of implementing Hash Functions :**<br>
+1. Division Method 
+2. Folding Method 
+3. Mid Square Mehthod
+<br><br>
+
+In Division Method, the hash function can be defined as : <br>
+**h(ki) = ki % m**
