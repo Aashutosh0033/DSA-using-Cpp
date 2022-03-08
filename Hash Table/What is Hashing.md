@@ -15,4 +15,34 @@ In Hashing technique, the hash table and hash function are used. Using the hash 
 <br><br>
 
 In Division Method, the hash function can be defined as : <br>
-**h(ki) = ki % m**
+**h(ki) = ki % m**<br>
+where **m** is the size of the hash table.<br>
+<br><br>
+
+**Collision :**<br>
+When the two different values have the same value, then the problem occurs between the two values, known as a collision. To resolve these collisions, we have some techniques known as collision techniques.<br>
+<br>
+The following are the collision techniques:<br><br>
+
+1.Open Hashing: It is also known as closed addressing.<br>
+2.Closed Hashing: It is also known as open addressing.<br>
+<br>
+*Open Hashing*<br>
+In Open Hashing, one of the methods used to resolve the collision is known as a chaining method.
+
+![hash-table2](https://user-images.githubusercontent.com/83531337/157205642-b9b9c897-81bd-4961-bc39-6a1444a728ce.png)
+
+*Closed Hashing :*<br>
+In Closed hashing, three techniques are used to resolve the collision:<br>
+
+1.Linear probing<br>
+2.Quadratic probing<br>
+3.Double Hashing technique<br><br>
+
+
+
+
+
+
+
+
