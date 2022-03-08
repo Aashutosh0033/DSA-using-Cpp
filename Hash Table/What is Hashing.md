@@ -33,7 +33,7 @@ In Open Hashing, one of the methods used to resolve the collision is known as a 
 ![hash-table2](https://user-images.githubusercontent.com/83531337/157205642-b9b9c897-81bd-4961-bc39-6a1444a728ce.png)
 
 *Closed Hashing :*<br><br>
-In Closed hashing, three techniques are used to resolve the collision:
+In Closed hashing, three techniques are used to resolve the collision:<br>
 1.Linear probing<br>
 2.Quadratic probing<br>
 3.Double Hashing technique<br><br>
