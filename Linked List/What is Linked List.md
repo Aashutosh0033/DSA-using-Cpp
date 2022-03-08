@@ -25,7 +25,7 @@ In linked list data is not stored in contiguos memory locations.<br><br>
 ->Circular Linked List<br><br>
 
 *Singly Linked List :* A singly linked list is a type of list in which each node consists of two components (a)Data (b)Next Node Address<br>
-![doubly-linked-list-concept](https://user-images.githubusercontent.com/83531337/157178801-460d2207-48d5-4fc1-92fb-cd85bcf8b11a.jpg)
+
 
 *Doubly Linked List :* A doubly linked list a type of list in which each node consists of three components (a)Previous Node Address (b)Data (c)Next Node Address<br>
 ![doubly-linked-list-concept](https://user-images.githubusercontent.com/83531337/157178801-460d2207-48d5-4fc1-92fb-cd85bcf8b11a.jpg)
