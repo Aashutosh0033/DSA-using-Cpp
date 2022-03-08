@@ -5,6 +5,9 @@ It is an ADT (Abstract Data type).
 Some real life example of queue is people on an escalator.<br/><br/>
 
 
+![queue](https://user-images.githubusercontent.com/83531337/157178300-a79365cf-7cee-4600-a41e-40ef8e234277.jpg)
+
+
 **Applications of Queue :**<br/>
 ->Managing requests on a single shared resource such as CPU scheduling and disk scheduling.<br/>
 ->Handling website traffic.<br/>
