@@ -4,6 +4,9 @@ Stack is a linear Data Structure which operates on LIFO (Last in First Out) or F
 It is an ADT (Abstact Data Type).
 Real life example of stack is books kept on one another.<br/><br/>
 
+
+<img width="407" alt="stack" src="https://user-images.githubusercontent.com/83531337/157177955-2343b679-b865-44e9-9805-b34856ba4ec1.png">
+
 **Applications of Stack :**<br/>
 -> Stacks can be used for expression evaluation.<br/>
 -> Stacks can be used to check parenthesis matching in an expression.<br/>
