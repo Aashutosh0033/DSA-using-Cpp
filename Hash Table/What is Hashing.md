@@ -22,22 +22,26 @@ where **m** is the size of the hash table.<br>
 **Collision :**<br>
 When the two different values have the same value, then the problem occurs between the two values, known as a collision. To resolve these collisions, we have some techniques known as collision techniques.<br>
 <br>
-The following are the collision techniques:<br><br>
+The following are the collision techniques:<br>
 
 1.Open Hashing: It is also known as closed addressing.<br>
 2.Closed Hashing: It is also known as open addressing.<br>
 <br>
-*Open Hashing*<br>
+*Open Hashing :*<br><br>
 In Open Hashing, one of the methods used to resolve the collision is known as a chaining method.
 
 ![hash-table2](https://user-images.githubusercontent.com/83531337/157205642-b9b9c897-81bd-4961-bc39-6a1444a728ce.png)
 
-*Closed Hashing :*<br>
-In Closed hashing, three techniques are used to resolve the collision:<br>
-
+*Closed Hashing :*<br><br>
+In Closed hashing, three techniques are used to resolve the collision:
 1.Linear probing<br>
 2.Quadratic probing<br>
 3.Double Hashing technique<br><br>
+Linear : Linear probing is one of the forms of open addressing. As we know that each cell in the hash table contains a key-value pair, so when the collision occurs by mapping a new key to the cell already occupied by another key, then linear probing technique searches for the closest free locations and adds a new key to that empty cell. In this case, searching is performed sequentially, starting from the position where the collision occurs till the empty cell is not found.<br><br>
+Quadratic Pronbing : In case of linear probing, searching is performed linearly. In contrast, quadratic probing is an open addressing technique that uses quadratic polynomial for searching until a empty slot is found. It can also be defined as that it allows the insertion ki at first free location from (u+i2)%m where i=0 to m-1.<br><br>
+Double Hashing : Double hashing is an open addressing technique which is used to avoid the collisions. When the collision occurs then this technique uses the secondary hash of the key. It uses one hash value as an index to move forward until the empty location is found.<br>
+In double hashing, two hash functions are used. Suppose h1(k) is one of the hash functions used to calculate the locations whereas h2(k) is another hash function. It can be defined as "insert ki at first free place from (u+v*i)%m where i=(0 to m-1)". In this case, u is the location computed using the hash function and v is equal to (h2(k)%m).
+
 
 
 
