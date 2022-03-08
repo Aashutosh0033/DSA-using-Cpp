@@ -3,6 +3,10 @@
 A linked list is a linear data structure that includes a series of connected nodes. Here, each node contains data and address of the next node.<br>
 In linked list data is not stored in contiguos memory locations.<br><br>
 
+
+
+<img width="630" alt="linked-list-concept" src="https://user-images.githubusercontent.com/83531337/157178574-b3b8e4d5-1279-4987-8b96-ddb6c1f6631d.png">
+
 **Applicaitons :**<br>
 ->Linked List can be used to implement Stack, Queue, Graph, Hash Tables, etc.<br>
 ->Undo functionality of Softwares.<br>
