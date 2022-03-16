@@ -27,5 +27,8 @@ Real life example of stack is books kept on one another.<br/><br/>
 *display()* - displays all elements in the stack.<br/>
 
 
+stack 
+
+
 
 
