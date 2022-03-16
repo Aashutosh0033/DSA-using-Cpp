@@ -8,16 +8,21 @@ Based on how they function, we can divide Algorithms into multiple types. Let’
 This is one of the most interesting Algorithms as it calls itself with a smaller value as inputs which it gets after solving for the current inputs. In more simpler words, It’s an Algorithm that calls itself repeatedly until the problem is solved.
 
 Problems such as the Tower of Hanoi or DFS of a Graph can be easily solved by using these Algorithms.<br><br>
+![4041ddaa-fccc-49b7-b2ad-320a49df75fb](https://user-images.githubusercontent.com/83531337/157183802-bee2a87c-1dd9-42b5-8834-fa3f553dfd53.png)
 
 ### 2. Divide and Conquer Algorithm
 This is another effective way of solving many problems. In Divide and Conquer algorithms, divide the algorithm into two parts; the first parts divide the problem on hand into smaller subproblems of the same type. Then, in the second part, these smaller problems are solved and then added together (combined) to produce the problem’s final solution.<br>
 Binary Search, Merge sorting, and quick sorting can be done with divide and conquer algorithms.<br><br>
+
+<img width="482" alt="divide-and-conquer-2" src="https://user-images.githubusercontent.com/83531337/157184698-2f5ec024-df28-4ca0-a7f5-e5d181c3c1f2.png">
 
 
 ### 3. Dynamic Programming Algorithm
 These algorithms work by remembering the results of the past run and using them to find new results. In other words, a dynamic programming algorithm solves complex problems by breaking them into multiple simple subproblems and then it solves each of them once and then stores them for future use.
 
 Fibonacci sequence is a good example for Dynamic Programming algorithms.<br><br>
+
+![download](https://user-images.githubusercontent.com/83531337/157184864-f494cdc6-7edc-4a98-9c2d-982186f599cc.png)
 
 ### 4. Greedy Algorithm
 These algorithms are used for solving optimization problems. In this algorithm, we find a locally optimum solution (without any regard for any consequence in future) and hope to find the optimal solution at the global level.
@@ -33,6 +38,8 @@ An objective function that assigns value to a possible solution or to a partial 
 Solution function that tells when we have found a solution to the problem.
 Huffman Coding and Dijkstra’s algorithm are two prime examples where the Greedy algorithm is used.<br><br>
 
+
+
 ### 5. Brute Force Algorithm
 This is one of the simplest algorithms in the concept. A brute force algorithm blindly iterates all possible solutions to search one or more than one solution that may solve a function. Think of brute force as using all possible combinations of numbers to open a safe.<br><br>
 
@@ -43,3 +50,4 @@ In other words, a backtracking algorithm solves a subproblem, and if it fails to
 
 N Queens problem is one good example to see Backtracking algorithm in action.
 
+<img width="422" alt="ba-state-space-tree" src="https://user-images.githubusercontent.com/83531337/157192751-33f16144-061f-4129-9b63-d0aaf2ca858a.png">

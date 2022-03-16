@@ -5,6 +5,9 @@ It is an ADT (Abstract Data type).
 Some real life example of queue is people on an escalator.<br/><br/>
 
 
+![queue](https://user-images.githubusercontent.com/83531337/157178300-a79365cf-7cee-4600-a41e-40ef8e234277.jpg)
+
+
 **Applications of Queue :**<br/>
 ->Managing requests on a single shared resource such as CPU scheduling and disk scheduling.<br/>
 ->Handling website traffic.<br/>
@@ -29,13 +32,19 @@ Some real life example of queue is people on an escalator.<br/><br/>
 
 
 
+
+
 *Circular Queue :* A circular queue is the extended version of simple queue where the last element is connected to the first element. Thus forming a circle-like structure. The circular queue solves the major limitation of normal queue. In a normal queue, after a bit insertion and deletion there will be non-usable space. But the circular queue makes use of this non-usable space to enque new elements.
 <br/>
+![circular-increment](https://user-images.githubusercontent.com/83531337/157182794-c20a45ef-7f76-490e-bab9-4db0510a03c0.jpg)
+
 
 *Priority Queue :* A priority queue is a special type of queue in which each element is associated with a priority value. And, elements are served on the basis of their priority. That is, higher priority elements are served first. However, if elements with the same priority occur, they are served according to their order in the queue.
 <br/>
+![Introduction](https://user-images.githubusercontent.com/83531337/157182822-eebdf7f8-b0f4-4b1b-8b96-b3f72c5a9af3.jpg)
 
 *Deque :* Deque or Double Ended Queue is a type of queue in which insertion and removal of elements can either be performed from the front or the rear. Thus, it does not follow FIFO rule (First In First Out).<br/>
+![deque](https://user-images.githubusercontent.com/83531337/157182815-41965ff3-360c-48ed-a667-6d1c70d93c67.jpg)
 
 Types of Deque:
 
