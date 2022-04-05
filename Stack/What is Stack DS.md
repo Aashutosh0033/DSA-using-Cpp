@@ -25,6 +25,14 @@ Real life example of stack is books kept on one another.<br/><br/>
 *count()* - gets the number of items in the stack.<br/>
 *change()* - updates an element at the i th position.<br/>
 *display()* - displays all elements in the stack.<br/>
+<br/>
+<br/>
+<br/>
+## YouTube References
+
+
+[Array Implmentation](https://www.youtube.com/watch?v=08QSylWv6jM&list=PLIY8eNdw5tW_zX3OCzX7NJ8bL1p6pWfgG&index=6)<br>
+[Linked List Implementation](https://www.youtube.com/watch?v=q3LA4-JxlcM&list=PLIY8eNdw5tW_zX3OCzX7NJ8bL1p6pWfgG&index=61)<br>
 
 
 
