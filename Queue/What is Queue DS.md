@@ -54,6 +54,27 @@ In this deque, input is restricted at a single end but allows deletion at both t
 *Output Restricted Deque :*
 In this deque, output is restricted at a single end but allows insertion at both the ends.
 
+<br>
+<br>
+<br>
+
+## Implementation Code
+
+[Normal Queue](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Queue/Normal_Queue.cpp)<br>
+[Circular Queue](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Queue/Circular_Queue.cpp)<br>
+[Normal Queue using Linked List](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Queue/Normal_Queue_LL.cpp)<br>
+[Circular Queue using Linked List](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Queue/Circular_Queue_LL.cpp)<br>
+
+
+<br>
+
+## YouTube References
+
+[Normal Queue](https://www.youtube.com/watch?v=wqKdRQ9nWvs&list=PLIY8eNdw5tW_zX3OCzX7NJ8bL1p6pWfgG&index=8)<br>
+[Circular Queue](https://www.youtube.com/watch?v=KSvMGwc9dN8&list=PLIY8eNdw5tW_zX3OCzX7NJ8bL1p6pWfgG&index=9)<br>
+[Normal Queue using Linked List](https://www.youtube.com/watch?v=a5k5dLk-650&list=PLIY8eNdw5tW_zX3OCzX7NJ8bL1p6pWfgG&index=63)<br>
+[Circular Queue using Linked List](https://www.youtube.com/watch?v=HsJc7a6NoTE&list=PLIY8eNdw5tW_zX3OCzX7NJ8bL1p6pWfgG&index=64)<br>
+
 
 
 
