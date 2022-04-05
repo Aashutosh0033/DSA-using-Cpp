@@ -1,4 +1,4 @@
-### Queue
+# Queue
 
 Queue is a linear data structure which operates on FIFO (First in Fist Out) or LILO (Last in Last Out) pattern
 It is an ADT (Abstract Data type).
