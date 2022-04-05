@@ -45,12 +45,3 @@ Quadratic Pronbing : In case of linear probing, searching is performed linearly.
 Double Hashing : Double hashing is an open addressing technique which is used to avoid the collisions. When the collision occurs then this technique uses the secondary hash of the key. It uses one hash value as an index to move forward until the empty location is found.<br>
 In double hashing, two hash functions are used. Suppose h1(k) is one of the hash functions used to calculate the locations whereas h2(k) is another hash function. It can be defined as "insert ki at first free place from (u+v*i)%m where i=(0 to m-1)". In this case, u is the location computed using the hash function and v is equal to (h2(k)%m).
 
-
-
-
-
-
-
-
-
->>>>>>> bad21a3ec8dc333f9461d133650f7862527ca17c
