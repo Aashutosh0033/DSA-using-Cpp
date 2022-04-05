@@ -28,12 +28,12 @@ Some formal design methods and programming languages emphasize data structures, 
 
 ## Notes
 
-[Trees Part 1]()
-[Trees Part 2]()
-[Graph Part 1]()
-[Graph Part 2]()
-[Linked List]()
-[Recursion & BackTracking]()
+[Trees Part 1](https://github.com/Aashutosh0033/DSA-using-Cpp/blob/main/Notes/Trees%20Part-1.pdf)<br>
+[Trees Part 2](https://github.com/Aashutosh0033/DSA-using-Cpp/blob/main/Notes/Trees%20Part-2.pdf)<br>
+[Graph Part 1](https://github.com/Aashutosh0033/DSA-using-Cpp/blob/main/Notes/Graph%20Part-1.pdf)<br>
+[Graph Part 2](https://github.com/Aashutosh0033/DSA-using-Cpp/blob/main/Notes/Graph%20-%202.pdf)<br>
+[Linked List](https://github.com/Aashutosh0033/DSA-using-Cpp/blob/main/Notes/Linked%20List.pdf)<br>
+[Recursion & BackTracking](https://github.com/Aashutosh0033/DSA-using-Cpp/blob/main/Notes/Recursion%20%26%20BackTracking.pdf)<br>
 
 
 
