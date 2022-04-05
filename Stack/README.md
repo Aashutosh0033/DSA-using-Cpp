@@ -1,4 +1,4 @@
-### Stack 
+# Stack 
 
 Stack is a linear Data Structure which operates on LIFO (Last in First Out) or FILO (First in Last Out) pattern.
 It is an ADT (Abstact Data Type).
