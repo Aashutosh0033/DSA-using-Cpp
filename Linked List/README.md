@@ -47,7 +47,6 @@ In linked list data is not stored in contiguos memory locations.<br><br>
 
 <br>
 <br>
-<br>
 
 ## YouTube References
 
