@@ -1,7 +1,7 @@
 
 ![Data Structures and Algorithms](https://user-images.githubusercontent.com/83531337/155879473-35f37c9b-7501-4013-b78a-9709244037b3.png)
 
-**This repo contains all the important Data Structures and Algorithms and their implementations.**<br>
+### This repo contains all the important Data Structures and Algorithms and their implementations.<br>
 <br>
 *Data structures serve as the basis for abstract data types (ADT). The ADT defines the logical form of the data type. The data structure implements the physical form of the data type.<br>
 Different types of data structures are suited to different kinds of applications, and some are highly specialized to specific tasks.<br>
