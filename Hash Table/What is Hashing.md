@@ -1,4 +1,4 @@
-### Hashing
+# Hashing
 <br>
 A Hash table is a data structure that stores some information, and the information has basically two main components, i.e., key and value. The hash table can be implemented with the help of an associative array.
 <br>
