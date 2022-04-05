@@ -35,3 +35,20 @@ In linked list data is not stored in contiguos memory locations.<br><br>
 *Circular Linked List :* A circular linked list is similar to the singly linked list but the difference is, in circular linked list the last node is connected to the first node.
 ![circular-linked-list](https://user-images.githubusercontent.com/83531337/157178948-d1d5a2f6-6654-49b8-9871-1e2f75052ddc.jpg)
 
+<br>
+<br>
+<br>
+
+## Implementation Code
+
+[Singly Linked List]()<br>
+[Doubly Linked List]()<br>
+[Circular Linked List]()<br>
+
+
+## YouTube References
+
+[Singly Linked List](https://www.youtube.com/watch?v=mDt53JLj8sM&list=PLIY8eNdw5tW_zX3OCzX7NJ8bL1p6pWfgG&index=12)<br>
+[Doubly Linked List](https://www.youtube.com/watch?v=yTlZFbolZO4&list=PLIY8eNdw5tW_zX3OCzX7NJ8bL1p6pWfgG&index=14)<br>
+[Circular Linked List](https://www.youtube.com/watch?v=nlPkg4NkPVY&list=PLIY8eNdw5tW_zX3OCzX7NJ8bL1p6pWfgG&index=16)<br>
+
