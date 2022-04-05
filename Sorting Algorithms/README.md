@@ -45,12 +45,14 @@ Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping 
  
  <br>
  <br>
+ 
  ## Implementation Code
- [Selection Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Selection_Sort.cpp)
- [Insertion Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Insertion_Sort.cpp)
- [Bubble Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Bubble_Sort.cpp)
- [Merge Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Merge_Sort.cpp)
- [Quick Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Quick_Sort.cpp)
+ 
+ [Selection Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Selection_Sort.cpp) <br>
+ [Insertion Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Insertion_Sort.cpp) <br>
+ [Bubble Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Bubble_Sort.cpp) <br>
+ [Merge Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Merge_Sort.cpp) <br>
+ [Quick Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Quick_Sort.cpp) <br>
  
 
  
