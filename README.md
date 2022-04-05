@@ -26,4 +26,15 @@ Some formal design methods and programming languages emphasize data structures, 
 [Sorting Algorithms](https://github.com/Aashutosh0033/Data-Structures-and-Algorithms/tree/main/Sorting%20Algorithms)<br>
 
 
+## Notes
+
+[Trees Part 1]()
+[Trees Part 2]()
+[Graph Part 1]()
+[Graph Part 2]()
+[Linked List]()
+[Recursion & BackTracking]()
+
+
+
 
