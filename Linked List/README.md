@@ -1,4 +1,4 @@
-### Linked List
+# Linked List
 
 A linked list is a linear data structure that includes a series of connected nodes. Here, each node contains data and address of the next node.<br>
 In linked list data is not stored in contiguos memory locations.<br><br>
