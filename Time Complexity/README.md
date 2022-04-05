@@ -23,7 +23,7 @@ Note : Big O noatation considers only the upper bound of the equation and it ign
 <br>
 <br>
 
-**Order of Growth** : constant < loglog(n) < log(n) < n^1/3 < n^1/2 < n < n^2 < n^3 < 2^n < n! < n^n <br>
+**Order of Growth** : *constant* < *loglog(n)* < *log(n)* < *n^1/3* < *n^1/2* < *n* < *n^2* < *n^3* < *2^n* < *n!* < *n^n* <br>
 <br>
 <br> 
 
