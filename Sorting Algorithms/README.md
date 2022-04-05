@@ -18,7 +18,9 @@ The comparison operator is used to decide the new order of the element in the re
 
 <br><br>
 
-## Types of Sorting <br><br>
+## Types of Sorting 
+
+<br><br>
 
  **Selection Sort :** <br>
 The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array.<br>
@@ -51,6 +53,7 @@ Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping 
  [Selection Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Selection_Sort.cpp) <br>
  [Insertion Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Insertion_Sort.cpp) <br>
  [Bubble Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Bubble_Sort.cpp) <br>
+ [Optimised Bubble Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Optimised_Bubble_Sort.cpp) <br>
  [Merge Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Merge_Sort.cpp) <br>
  [Quick Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Quick_Sort.cpp) <br>
  
