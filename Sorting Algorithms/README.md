@@ -20,35 +20,37 @@ The comparison operator is used to decide the new order of the element in the re
 
 ## Types of Sorting <br><br>
 
-## Selection Sort : <br>
+ **Selection Sort :** <br>
 The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array.<br>
 1) The subarray which is already sorted. 
 2) Remaining subarray which is unsorted.
 In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray. 
 <br><br>
 
-## Insertion Sort : <br>
+ **Insertion Sort :** <br>
 Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.
 <br><br>
 
-## Bubble Sort : <br>
+**Bubble Sort :** <br>
 Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
 <br><br>
 
-## Merge Sort : <br>
+**Merge Sort :** <br>
  Merge Sort Algorithm is a Divide & Conquer algorithm. It divides input array in two halves, calls itself for the two halves(recursively) and then merges the two sorted halves. A separate merge() function is used for merging two halves. Merge sort is one of the most efficient sorting algorithms.
  <br><br>
 
- ## Quick Sort : <br>
+ **Quick Sort :** <br>
  Quick Sort Algorithm is a Divide & Conquer algorithm. It divides input array in two partitions, calls itself for the two partitions(recursively) and performs in-place sorting while doing so. A separate partition() function is used for performing this in-place sorting at every iteration. Quick sort is one of the most efficient sorting algorithms.
  <br><br>
  
- 
+ <br>
+ <br>
  ## Implementation Code
- []()
- []()
- []()
- []()
+ [Selection Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Selection_Sort.cpp)
+ [Insertion Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Insertion_Sort.cpp)
+ [Bubble Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Bubble_Sort.cpp)
+ [Merge Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Merge_Sort.cpp)
+ [Quick Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Quick_Sort.cpp)
  
 
  
