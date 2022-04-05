@@ -36,7 +36,6 @@ Real life example of stack is books kept on one another.<br/><br/>
 [Linked List Implementation](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Stack/Linked_List_Implementation.cpp)<br>
 <br>
 <br>
-<br>
 
 ## YouTube References
 
