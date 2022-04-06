@@ -16,6 +16,7 @@ Searching algorithms are designed to check for an element or retrieve an element
 Linear Search Algorithm basically traverse through the whole data structure linearly to search the key. Due to this the time complexity of this algorithm is directly proportional to the length of the data structure.<br><br>
 ![download (1)](https://user-images.githubusercontent.com/83531337/157194898-721de505-e483-487e-a117-167a711497f6.jpg)
 
+<br>
 
 ## Binary Search :
 Binary Search is a searching algorithm used in a sorted array by repeatedly dividing the search interval in half. The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(Log n). The basic steps to perform Binary Search are:<br>
@@ -26,6 +27,17 @@ Otherwise, narrow it to the upper half. <br>
 Repeatedly check until the value is found or the interval is empty.<br>
 
 ![BinarySearch](https://user-images.githubusercontent.com/83531337/157194799-5dfbe2a9-3ccb-45f2-b2dd-fb1f187fcab0.png)
+
+<br>
+
+## Depth First Search 
+
+<br>
+
+## Breadth First Search 
+
+<br>
+
 
 <br><br>
 
