@@ -43,8 +43,8 @@ Repeatedly check until the value is found or the interval is empty.<br>
 
 ## Implementation Code
 
-[Linear Search]()<br>
-[Binary Search]()<br>
+[Linear Search](https://github.com/Aashutosh0033/DSA-using-Cpp/blob/main/Searching%20Algorithms/Linear_Search.cpp)<br>
+[Binary Search](https://github.com/Aashutosh0033/DSA-using-Cpp/blob/main/Searching%20Algorithms/Binary_Search.cpp)<br>
 [Depth First Search]()<br>
 [Breadth First Search]()<br>
 
