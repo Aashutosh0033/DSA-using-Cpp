@@ -53,6 +53,10 @@ Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping 
  <br>
  <br>
  
+ **Counting Sort :**<br>
+ 
+ 
+ 
  ## Implementation Code
  
  [Selection Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Selection_Sort.cpp) <br>
