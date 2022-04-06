@@ -27,4 +27,13 @@ Repeatedly check until the value is found or the interval is empty.<br>
 
 ![BinarySearch](https://user-images.githubusercontent.com/83531337/157194799-5dfbe2a9-3ccb-45f2-b2dd-fb1f187fcab0.png)
 
+<br><br>
+
+## Implementation Code
+
+[Linear Search]()<br>
+[Binary Search]()<br>
+[Depth First Search]()<br>
+[Breadth First Search]()<br>
+
 
