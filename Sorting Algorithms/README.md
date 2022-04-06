@@ -61,6 +61,7 @@ Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping 
  [Optimised Bubble Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Optimised_Bubble_Sort.cpp) <br>
  [Merge Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Merge_Sort.cpp) <br>
  [Quick Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Quick_Sort.cpp) <br>
+ [Counting Sort]()<br>
  
 
  
