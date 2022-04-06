@@ -50,12 +50,11 @@ Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping 
  Quick Sort Algorithm is a Divide & Conquer algorithm. It divides input array in two partitions, calls itself for the two partitions(recursively) and performs in-place sorting while doing so. A separate partition() function is used for performing this in-place sorting at every iteration. Quick sort is one of the most efficient sorting algorithms.
  <br><br>
  
- <br>
- <br>
- 
+
  **Counting Sort :**<br>
  
- 
+ <br>
+ <br>
  
  ## Implementation Code
  
