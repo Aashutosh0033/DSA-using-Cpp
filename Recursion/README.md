@@ -91,7 +91,7 @@ int factorial(int n) {
     <p>
         In Head Recursion, the Recursive relation part is placed before processing.<br>
         - Base Condition<br>
-        - Recursive Relation<br>Processing
+        - Recursive Relation<br>
         - Processing<br>
     </p>
 </details>
