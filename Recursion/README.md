@@ -58,8 +58,10 @@ int factorial(int n) {
 // Factorial of 4 = 24
 ```
 
-### Working of Factorial Program
+<br>
+<br>
 
+### Working of Factorial Program
 ![cpp-function-recursion-example](https://user-images.githubusercontent.com/83531337/162493361-b9ba4c49-0ecd-4d3f-bd2a-8f73436b5ab8.jpg)
 
 
