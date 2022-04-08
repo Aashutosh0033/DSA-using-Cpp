@@ -132,7 +132,7 @@ int main(){
 
 <br>
 
-**Head Recursion**
+**Head Recursion Example**
 
 ```C++
 //Printing numbers in reverse order
