@@ -99,7 +99,7 @@ int factorial(int n) {
 <br>
 <br>
 
-**Tail Recursion Example **
+**Tail Recursion Example**
 
 ```C++
 //Printing numbers in reverse order
@@ -132,7 +132,7 @@ int main(){
 
 <br>
 
-**Head Recursion **
+**Head Recursion**
 
 ```C++
 //Printing numbers in reverse order
