@@ -15,7 +15,6 @@ Some formal design methods and programming languages emphasize data structures, 
 [Time Complexity](https://github.com/Aashutosh0033/Data-Structures-and-Algorithms/tree/main/Time%20Complexity)<br>
 [Recursion](https://github.com/Aashutosh0033/Data-Structures-and-Algorithms/tree/main/Recursion)<br>
 [Stack](https://github.com/Aashutosh0033/Data-Structures-and-Algorithms/tree/main/Stack)<br>
-[Stack](https://github.com/Aashutosh0033/Data-Structures-and-Algorithms/tree/main/Stack)<br>
 [Queue](https://github.com/Aashutosh0033/Data-Structures-and-Algorithms/tree/main/Queue)<br>
 [Linked List](https://github.com/Aashutosh0033/Data-Structures-and-Algorithms/tree/main/Linked%20List)<br>
 [Hash Table](https://github.com/Aashutosh0033/Data-Structures-and-Algorithms/tree/main/Hash%20Table)<br>
