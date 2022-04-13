@@ -32,8 +32,8 @@ Some formal design methods and programming languages emphasize data structures, 
 
 ## Data Structures and Algorithms using STL(Standard Template Library)
 
-[Templates](https://github.com/Aashutosh0033/DSA-using-Cpp/tree/main/Templates)
-[STL](https://github.com/Aashutosh0033/DSA-using-Cpp/tree/main/STL)
+[Templates](https://github.com/Aashutosh0033/DSA-using-Cpp/tree/main/Templates)<br>
+[STL](https://github.com/Aashutosh0033/DSA-using-Cpp/tree/main/STL)<br>
 
 
 ## Notes
