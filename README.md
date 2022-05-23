@@ -45,8 +45,8 @@ Some formal design methods and programming languages emphasize data structures, 
 [Linked List](https://github.com/Aashutosh0033/DSA-using-Cpp/blob/main/Notes/Linked%20List.pdf)<br>
 [Recursion & BackTracking](https://github.com/Aashutosh0033/DSA-using-Cpp/blob/main/Notes/Recursion%20%26%20BackTracking.pdf)<br>
 [Dynamic Programming 1](https://github.com/Aashutosh0033/DSA-using-Cpp/blob/main/Dynamic%20Programming-1.pdf)<br>
-[Dynamic Programming 2](https://github.com/Aashutosh0033/DSA-using-Cpp/blob/main/Dynamic%20Programming-2.pdf)<br>
-[Bit Manipulation](https://github.com/Aashutosh0033/DSA-using-Cpp/blob/main/Bit%20Manipualtion.pdf)<br>
+[Dynamic Programming 2](https://github.com/Aashutosh0033/DSA-using-Cpp/blob/main/Dynamic%20Programming%20-%202.pdf)<br>
+[Bit Manipulation](https://github.com/Aashutosh0033/DSA-using-Cpp/blob/main/Bit%20Manipulation.pdf)<br>
 
 
 ## Questions
