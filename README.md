@@ -10,7 +10,7 @@ Data structures provide a means to manage large amounts of data efficiently for 
 Some formal design methods and programming languages emphasize data structures, rather than algorithms, as the key organizing factor in software design. Data structures can be used to organize the storage and retrieval of information stored in both main memory and secondary memory.*<br>
 <br>
 <br>
-*Special Mention to [Simple Snippet](https://www.youtube.com/c/SimpleSnippets)<br> for Video References and Code References.
+*Special Mention to [Simple Snippet](https://www.youtube.com/c/SimpleSnippets) for Video References and Code References.*
 
 <br>
 <br>
