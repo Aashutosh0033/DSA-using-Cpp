@@ -18,7 +18,7 @@ Some real life example of queue is people on an escalator.<br/><br/>
 **Standart Queue functions**<br/>
 *enqueue()* - Adds an element to end of queue.<br/>
 *dequeue()* - removing an element from the front of the queue and returning it.<br/>
-*ifEmpty()* - checks if the queue is empty or not.<br/>
+*isEmpty()* - checks if the queue is empty or not.<br/>
 *isFull()* - checks if the queue of full or not.<br/>
 *peek()* -  access the element at i th position.<br/>
 *count()* - counts the number of elements in queue.<br/><br/>
