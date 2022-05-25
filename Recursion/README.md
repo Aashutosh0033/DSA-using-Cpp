@@ -1,6 +1,6 @@
 # Recursion
 
-*A function that calls itself is known as a recursive function. And, this technique is known as recursion.*
+*A function that calls itself until the base condition is met, is known as a Recursive function. And, this technique is known as Recursion.*
 <br>
 <br>
 <br>
