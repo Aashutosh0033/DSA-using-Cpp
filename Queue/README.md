@@ -28,7 +28,7 @@ Some real life example of queue is people on an escalator.<br/><br/>
 ->Simple Queue<br/>
 ->Circular Queue<br/>
 ->Priority Queue<br/>
-->Dequeue (Double Ended Queue)<br/><br/>
+->Deque (Double Ended Queue)<br/><br/>
 
 
 
