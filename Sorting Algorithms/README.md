@@ -53,8 +53,39 @@ Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping 
 
  **Counting Sort :**<br>
  
+ Counting Sort is a sorting algorithm that sorts the elements in the array by counting the number of occurences of each unique element in the array. The count is stored in an auxiliary array and the sorting is done by mapping the count as an index of the auxilliary array. 
+ 
  <br>
  <br>
+ 
+ 
+ **Radix Sort :**<br>
+ 
+ 
+ <br>
+ <br>
+ 
+ 
+ **Bucket Sort :**<br>
+ 
+ 
+ <br>
+ <br>
+ 
+ 
+ **Heap Sort :**<br>
+ 
+ 
+ <br>
+ <br>
+ 
+ 
+ **Shell Sort :**<br>
+ 
+ 
+ <br>
+ <br>
+ 
  
  ## Implementation Code
  
@@ -65,6 +96,10 @@ Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping 
  [Merge Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Merge_Sort.cpp) <br>
  [Quick Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/edit/main/Sorting%20Algorithms/Quick_Sort.cpp) <br>
  [Counting Sort]()<br>
+ [Radix Sort]()<br>
+ [Bucket Sort]()<br>
+ [Heap Sort]()<br>
+ [Shell Sort]()<br>
  
 
  
