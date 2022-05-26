@@ -13,7 +13,7 @@ This technique is termed as Generic Programming, because we declare a generic te
 Let's understand the syntax to declare a template.<br>
 
 1. First declare a template of class and pass a variable T as its paramter.<br>
-2. Define a class of your choice and replace all the data types with the parameter T of templates. The data types of the class becomes of the type we pass in the template.<br>
+2. Define a class of your choice and replace all the data types of the variables inside the class with the parameter T (of template). The data types of the class variables now becomes of the type we pass in the template.<br>
 <br>
 
 For Ex: <br>
@@ -40,4 +40,6 @@ int main() {
 }
 ```
 <br>
+
+
 
