@@ -1,7 +1,7 @@
 # Templates
 
 ## What are Templates?
-Templates are very simple and powerful tool in C++. The idea behind using it is to pass data types as parameters so we don't need to write code for different data types. Declaring different classes for every other data types violates the very first rule of C++ 'DRY' (Do not Repeat Yourself) and on the other hand doesn't completely utilize the true potentials of C++. <br>
+Templates are very simple and powerful tool in C++. The idea behind using it is to pass data types as parameters so we don't need to write code for different data types. Declaring different classes for every other data types violates the very first rule of C++ 'DRY Principle' (Do not Repeat Yourself) and on the other hand doesn't completely utilize the true potentials of C++. <br>
 <br>
 
 **Generic Programming** :
