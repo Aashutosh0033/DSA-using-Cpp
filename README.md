@@ -23,9 +23,9 @@ Some formal design methods and programming languages emphasize data structures, 
 [Queue](https://github.com/Aashutosh0033/Data-Structures-and-Algorithms/tree/main/Queue)<br>
 [Linked List](https://github.com/Aashutosh0033/Data-Structures-and-Algorithms/tree/main/Linked%20List)<br>
 [Hash Table](https://github.com/Aashutosh0033/Data-Structures-and-Algorithms/tree/main/Hash%20Table)<br>
-[Trees]()<br>
-[Heap Sort]()<br>
-[Graph]()<br>
+[Trees](https://github.com/Aashutosh0033/DSA-using-Cpp/tree/main/Trees)<br>
+[Heap Sort](https://github.com/Aashutosh0033/DSA-using-Cpp/tree/main/Heap%20Sort)<br>
+[Graph](https://github.com/Aashutosh0033/DSA-using-Cpp/tree/main/Graph)<br>
 
 
 ## Algorithms
