@@ -24,6 +24,8 @@ Some formal design methods and programming languages emphasize data structures, 
 [Linked List](https://github.com/Aashutosh0033/Data-Structures-and-Algorithms/tree/main/Linked%20List)<br>
 [Hash Table](https://github.com/Aashutosh0033/Data-Structures-and-Algorithms/tree/main/Hash%20Table)<br>
 [Trees]()<br>
+[Heap Sort]()<br>
+[Graph]()<br>
 
 
 ## Algorithms
